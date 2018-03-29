@@ -1,0 +1,9 @@
+c:\users\besttdk\documents\visual studio 2015\Projects\CopyFile\CopyFile\bin\Debug\CopyFile.exe.config
+c:\users\besttdk\documents\visual studio 2015\Projects\CopyFile\CopyFile\bin\Debug\CopyFile.exe
+c:\users\besttdk\documents\visual studio 2015\Projects\CopyFile\CopyFile\bin\Debug\CopyFile.pdb
+c:\users\besttdk\documents\visual studio 2015\Projects\CopyFile\CopyFile\obj\Debug\CopyFile.csprojResolveAssemblyReference.cache
+c:\users\besttdk\documents\visual studio 2015\Projects\CopyFile\CopyFile\obj\Debug\CopyFile.CopyingFileForm.resources
+c:\users\besttdk\documents\visual studio 2015\Projects\CopyFile\CopyFile\obj\Debug\CopyFile.Properties.Resources.resources
+c:\users\besttdk\documents\visual studio 2015\Projects\CopyFile\CopyFile\obj\Debug\CopyFile.csproj.GenerateResource.Cache
+c:\users\besttdk\documents\visual studio 2015\Projects\CopyFile\CopyFile\obj\Debug\CopyFile.exe
+c:\users\besttdk\documents\visual studio 2015\Projects\CopyFile\CopyFile\obj\Debug\CopyFile.pdb
