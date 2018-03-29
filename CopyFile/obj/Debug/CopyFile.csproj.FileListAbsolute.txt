@@ -7,3 +7,12 @@ c:\users\besttdk\documents\visual studio 2015\Projects\CopyFile\CopyFile\obj\Deb
 c:\users\besttdk\documents\visual studio 2015\Projects\CopyFile\CopyFile\obj\Debug\CopyFile.csproj.GenerateResource.Cache
 c:\users\besttdk\documents\visual studio 2015\Projects\CopyFile\CopyFile\obj\Debug\CopyFile.exe
 c:\users\besttdk\documents\visual studio 2015\Projects\CopyFile\CopyFile\obj\Debug\CopyFile.pdb
+C:\Users\БаймуханбетоваА\Source\Repos\FilestreamHW\CopyFile\obj\Debug\CopyFile.csprojResolveAssemblyReference.cache
+C:\Users\БаймуханбетоваА\Source\Repos\FilestreamHW\CopyFile\obj\Debug\CopyFile.CopyingFileForm.resources
+C:\Users\БаймуханбетоваА\Source\Repos\FilestreamHW\CopyFile\obj\Debug\CopyFile.Properties.Resources.resources
+C:\Users\БаймуханбетоваА\Source\Repos\FilestreamHW\CopyFile\obj\Debug\CopyFile.csproj.GenerateResource.Cache
+C:\Users\БаймуханбетоваА\Source\Repos\FilestreamHW\CopyFile\obj\Debug\CopyFile.exe
+C:\Users\БаймуханбетоваА\Source\Repos\FilestreamHW\CopyFile\obj\Debug\CopyFile.pdb
+C:\Users\БаймуханбетоваА\Source\Repos\FilestreamHW\CopyFile\bin\Debug\CopyFile.exe.config
+C:\Users\БаймуханбетоваА\Source\Repos\FilestreamHW\CopyFile\bin\Debug\CopyFile.exe
+C:\Users\БаймуханбетоваА\Source\Repos\FilestreamHW\CopyFile\bin\Debug\CopyFile.pdb

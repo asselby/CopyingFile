@@ -15,12 +15,13 @@ namespace CopyFile
     public partial class CopyingFileForm : Form
     {
         OpenFileDialog inputFileDialog = new OpenFileDialog();
-        OpenFileDialog outFileDialog = new OpenFileDialog();
+        SaveFileDialog outFileDialog = new SaveFileDialog();
         public CopyingFileForm()
         {
             InitializeComponent();
             fromButton.Click += FromButttonClick;
             toButton.Click += ToButtonClick;
+            copyingButton.Click += CopyFile;
         }
 
         void FromButttonClick(object sender, EventArgs e)
@@ -37,11 +38,39 @@ namespace CopyFile
 
         void CopyFile(object sender, EventArgs e)
         {
-            int buffersize = inputFileDialog.FileName.Length;
-            FileStream inputStream = new FileStream(inputFileDialog.FileName, FileMode.Open);
-            byte []
-            inputStream.Read();
+           
+            const int bufSize = 1024 * 4;//4kb
+            try
+            {
+                using (FileStream inputFile = new FileStream(inputFileDialog.FileName, FileMode.Open))
+                {
+                    byte[] buffer = new byte[bufSize];
+                    int rW_count = (int)inputFile.Length / bufSize;//кол-во циклов чтения записи
+                    int lastSize = (int)inputFile.Length % bufSize;//размер последнего копирования, как остаток от деления размера файла к размеру буфера  
 
+                    using (FileStream outFile = new FileStream(outFileDialog.FileName, FileMode.OpenOrCreate))
+                    {
+                        progressBar.Minimum = 0;
+                        progressBar.Maximum = 10;
+                        for (int i = 0; i < rW_count; i++)
+                        {
+                            inputFile.Read(buffer, 0, bufSize);
+                            outFile.Write(buffer, 0, bufSize);
+                            progressBar.Increment((int)outFile.Length);
+                        }
+                        if (lastSize != 0)
+                        {
+                            inputFile.Read(buffer, 0, lastSize);
+                            outFile.Write(buffer, 0, lastSize);
+                        }
+                        MessageBox.Show("Копирование завершено!");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Не удалось открыть файл!");
+            }
         }
     }
 }

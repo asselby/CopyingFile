@@ -34,7 +34,7 @@
             this.toTextBox = new System.Windows.Forms.TextBox();
             this.fromButton = new System.Windows.Forms.Button();
             this.toButton = new System.Windows.Forms.Button();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.progressBar = new System.Windows.Forms.ProgressBar();
             this.copyingButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -96,12 +96,12 @@
             this.toButton.Text = "Файл";
             this.toButton.UseVisualStyleBackColor = true;
             // 
-            // progressBar1
+            // progressBar
             // 
-            this.progressBar1.Location = new System.Drawing.Point(35, 169);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(422, 33);
-            this.progressBar1.TabIndex = 6;
+            this.progressBar.Location = new System.Drawing.Point(35, 169);
+            this.progressBar.Name = "progressBar";
+            this.progressBar.Size = new System.Drawing.Size(422, 33);
+            this.progressBar.TabIndex = 6;
             // 
             // copyingButton
             // 
@@ -120,7 +120,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(618, 228);
             this.Controls.Add(this.copyingButton);
-            this.Controls.Add(this.progressBar1);
+            this.Controls.Add(this.progressBar);
             this.Controls.Add(this.toButton);
             this.Controls.Add(this.fromButton);
             this.Controls.Add(this.toTextBox);
@@ -144,7 +144,7 @@
         private System.Windows.Forms.TextBox toTextBox;
         private System.Windows.Forms.Button fromButton;
         private System.Windows.Forms.Button toButton;
-        private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.ProgressBar progressBar;
         private System.Windows.Forms.Button copyingButton;
     }
 }
